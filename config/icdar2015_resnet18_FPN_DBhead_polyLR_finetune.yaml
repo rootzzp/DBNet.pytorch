@@ -9,7 +9,7 @@ arch:
     type: FPN
     inner_channels: 256
   head:
-    type: DBHead
+    type: EDBHead
     out_channels: 2
     k: 50
 post_processing:

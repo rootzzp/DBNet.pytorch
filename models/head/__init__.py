@@ -3,9 +3,10 @@
 # @Author  : zhoujun
 from .DBHead import DBHead
 from .ConvHead import ConvHead
+from .ENHANCE_DBHead import EDBHead
 
 __all__ = ['build_head']
-support_head = ['ConvHead', 'DBHead']
+support_head = ['ConvHead', 'DBHead', 'EDBHead']
 
 
 def build_head(head_name, **kwargs):
