@@ -31,6 +31,9 @@ pip install -r requirement.txt
 # Note that you can change the cudatoolkit version to the version you want.
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 
+pip install natsort
+pip install addict
+
 # clone repo
 git clone https://github.com/WenmuZhou/DBNet.pytorch.git
 cd DBNet.pytorch/
