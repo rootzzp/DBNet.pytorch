@@ -1,2 +1,10 @@
-./datasets/test/img/001.jpg	./datasets/test/gt/001.txt
-./datasets/test/img/002.jpg	./datasets/test/gt/002.txt
+./datasets/test/img/img_1.jpg	./datasets/test/gt/gt_img_1.txt
+./datasets/test/img/img_2.jpg	./datasets/test/gt/gt_img_2.txt
+./datasets/test/img/img_3.jpg	./datasets/test/gt/gt_img_3.txt
+./datasets/test/img/img_4.jpg	./datasets/test/gt/gt_img_4.txt
+./datasets/test/img/img_5.jpg	./datasets/test/gt/gt_img_5.txt
+./datasets/test/img/img_6.jpg	./datasets/test/gt/gt_img_6.txt
+./datasets/test/img/img_7.jpg	./datasets/test/gt/gt_img_7.txt
+./datasets/test/img/img_8.jpg	./datasets/test/gt/gt_img_8.txt
+./datasets/test/img/img_9.jpg	./datasets/test/gt/gt_img_9.txt
+./datasets/test/img/img_10.jpg	./datasets/test/gt/gt_img_10.txt
