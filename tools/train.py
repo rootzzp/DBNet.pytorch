@@ -67,6 +67,10 @@ if __name__ == '__main__':
     sys.path.append(str(__dir__.parent.parent))
     # project = 'DBNet.pytorch'  # 工作项目根目录
     # sys.path.append(os.getcwd().split(project)[0] + project)
+    sys.argv = [
+        "tools/train.py", 
+        "--config_file", "config/icdar2015_resnet18_FPN_CBAM_DBhead_polyLR.yaml"
+    ]
 
     from utils import parse_config
 

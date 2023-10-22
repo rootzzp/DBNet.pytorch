@@ -129,3 +129,6 @@ TBD
 3. https://github.com/MhLiao/DB
 
 **If this repository helps you，please star it. Thanks.**
+
+# 第一个改进点：
+- 在FPN层后面添加加CBAM模块，利用注意力机制，提高网络的学习能力

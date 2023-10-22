@@ -3,9 +3,10 @@
 # @Author  : zhoujun
 from .FPN import FPN
 from .FPEM_FFM import FPEM_FFM
+from .FPN_CBAM import FPN_CBAM
 
 __all__ = ['build_neck']
-support_neck = ['FPN', 'FPEM_FFM']
+support_neck = ['FPN', 'FPEM_FFM', 'FPN_CBAM']
 
 
 def build_neck(neck_name, **kwargs):
